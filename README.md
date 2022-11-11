@@ -4,7 +4,6 @@
 ![Build Status](https://github.com/boatkn/jpacman/actions/workflows/myworkflow.yml/badge.svg)  
 ![Coverage](.github/badges/jacoco.svg)  
 ![Branches](.github/badges/branches.svg)  
-![image](https://user-images.githubusercontent.com/89009758/201260410-61f224c8-9a49-477a-9273-161cd7dbaa8a.png)  
 
 ## About
 
