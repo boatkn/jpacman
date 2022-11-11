@@ -9,9 +9,9 @@ name: JPacman CI with Gradle2
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
     
 permissions:
   contents: write
