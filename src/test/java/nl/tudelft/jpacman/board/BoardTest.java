@@ -31,4 +31,16 @@ public class BoardTest {
         Board board = new Board(grid);
         assertThat(board.squareAt(0, 0)).isEqualTo(grid[0][0]);
     }
+    
+    /**
+     * Do the squareAt method perform correctly?.
+     */
+    @Test
+    void testSquareAtPosition() {
+        Square row = new BasicSquare();
+        Square[][] grid = new Square[1][1];
+        grid[0][0] = row;
+        Board board = new Board(grid);
+        assertThat(board.squareAt(0, 0)).isEqualTo(grid[0][0]);
+    }
 }
